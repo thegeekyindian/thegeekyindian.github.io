@@ -1,0 +1,8 @@
+{
+  "heading":"Creational Design Patterns",
+  "title":"Creational Design Patterns",
+  "description":"JAVA Creational Design Patterns",
+  "dataList":[
+    {"data":"creationalDesignPatterns.html","component":"html"}
+  ]
+}

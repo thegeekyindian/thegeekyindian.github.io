@@ -1,0 +1,8 @@
+{
+  "heading":"Structured Design Patterns",
+  "title":"Structured Design Patterns",
+  "description":"JAVA Structured Design Patterns",
+  "dataList":[
+    {"data":"structuredDesignPatterns.html","component":"html"}
+  ]
+}

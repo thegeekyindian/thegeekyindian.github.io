@@ -1,12 +1,45 @@
 {
-  "heading":"Java Design Patterns",
-  "title":"Java Design Patterns",
-  "description":"A Simple way to understand Java Design Patterns",
+  "heading":"Design Patterns",
+  "title":"What Are Design Patterns?",
+  "description":"What Are Design Patterns?",
   "dataList":[
-    {
-      "component":"div",
-      "classNames":"jumbotron",
-      "data":"Will get updated soon"
+    {"data":"While developing a software solution, various discussions take place to plan and determine the best possible procedure for the product development process."
+    },
+    {"data":"In this process, different developers would have different opinions and might be unable to come up with a commonly accepted approach to solve a specified problem."
+    },
+    {"data":"This diversity can lead to different variations in source code that can make the software difficult to distribute, extend, reuse, and manage by fellow developers. Hence, there is a need for standardization in the case of object-oriented software."
+    },
+    {"data":"This problem of standardization was solved with the introduction of Design Patterns in 1995 in the Design Patterns: Elements of Reusable Object-Oriented Software book (also called the Gang of Four) which was written by Erich Gamma, John Vlissides, Ralph Johnson, and Richard Helm."
+    },
+    {"data":"Design patterns are a toolkit of tried and well-tested solutions to common software design problems created by experienced object-oriented practitioners. As a result, the design patterns are considered a standard in object-oriented software design i.e., if you want to build an object-oriented software using best practices, then you should follow the Software Design Patterns."
+    },
+    {"data":"Types Of Design Patterns",
+      "component":"h4"
+    },
+    {"data":"Design patterns are mainly classified into 3 categories"
+    },
+    {"data":"Creational Patterns",
+      "component":"h5"
+    },
+    {"data":"The traditional method of object creation can lead to the instantiation of objects in an uncontrolled fashion."
+    },
+    {"data":"It can scatter objects all over the application which can increase the overall application design complexity. This can make an object-oriented application unstable and can lead to design problems. Creational Design Patterns reduce this design instability and complexity by providing different ways to implement controlled object creation in an object-oriented application."
+    },
+    {"data":"There are 5 different creational design patterns, namely : - Singleton pattern - Factory pattern - Abstract Factory pattern - Builder pattern - Prototype pattern"
+    },
+    {"data":"Structural Patterns",
+      "component":"h5"
+    },
+    {"data":"Structural Design Patterns provide different ways to organize the classes and objects in an object-oriented application such that it leads to simplification of the design of large and complex structures."
+    },
+    {"data":"It describes the process using which we can combine classes and objects to form an organized, flexible, and connected structure. There are 7 different types of structural design patterns. These include : - Adapter pattern - Composite pattern - Proxy pattern - Fly Weight pattern - Facade pattern - Bridge pattern - Decorator pattern"
+    },
+    {"data":"Behavioral Patterns",
+      "component":"h5"
+    },
+    {"data":"Behavioral design patterns deal with the interaction of objects with each other. These patterns follow the fact that the objects in an object-oriented application should be interconnected in such a way that hard coding can be avoided and the user input can be well handled."
+    },
+    {"data":"These design patterns make use of loose coupling techniques to ensure a flexible and effective flow of information. Behavioral design patterns include 12 different patterns namely : - Chain of Responsibility Pattern - Command Pattern - Interpreter Pattern - Iterator Pattern - Mediator Pattern - Memento Pattern - Observer Pattern - State Pattern - Strategy Pattern - Template Pattern - Visitor Pattern - Null Object Pattern"
     }
   ]
 }
