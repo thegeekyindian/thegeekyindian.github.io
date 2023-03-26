@@ -1,8 +1,11 @@
 {
-  "heading":"Behavioural Design Patterns",
-  "title":"Behavioural Design Patterns",
-  "description":"JAVA Behavioural Design Patterns",
-  "dataList":[
-    {"data":"behaviouralDesignPatterns.html","component":"html"}
+  "heading": "Behavioural Design Patterns",
+  "title": "Behavioural Design Patterns",
+  "description": "JAVA Behavioural Design Patterns",
+  "dataList": [
+    {
+      "data": "behaviouralDesignPatterns.html",
+      "component": "html"
+    }
   ]
 }

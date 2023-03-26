@@ -9,11 +9,25 @@
       "shortName":"Design Patterns",
       "page": "designPatterns",
       "iconClass":"fab fa-java",
-      "subLinks": [{
+      "subLinks": [       
+        {
           "key":"creationalDesignPatterns",
           "name": "Creational",
           "shortName":"Creational",
-          "page": "creationalDesignPatterns"
+          "page": "creationalDesignPatterns",
+          "subLinks": [{
+            "key":"factoryMethodPattern",
+              "name": "Factory Method Pattern",
+              "shortName":"Factory Method Pattern",
+              "page": "factoryMethodPattern"
+            },
+            {
+              "key":"abstractFactoryMethodPattern",
+              "name": "Abstract Factory Pattern",
+              "shortName":"Abstract Factory Pattern",
+              "page": "abstractFactoryMethodPattern"
+            }
+          ]
         },
         {
           "key":"structuralDesignPatterns",

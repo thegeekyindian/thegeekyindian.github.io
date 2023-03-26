@@ -1,0 +1,11 @@
+{
+    "heading": "How to reach us?",
+    "title": "Contact The Geeky Indians",
+    "description": "Contact The Geeky Indians",
+    "dataList": [
+      {
+        "data": "contacts.html",
+        "component": "html"
+      }
+    ]
+  }
