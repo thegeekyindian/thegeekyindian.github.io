@@ -1,0 +1,80 @@
+{
+  "heading": "Collections",
+  "title": "Collections",
+  "description": "Understanding collections in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Python provides several built-in data structures called collections. We've already covered lists, but there are more: tuples, sets, and dictionaries."
+    },
+    {
+      "component": "h2",
+      "data": "Tuples"
+    },
+    {
+      "component": "p",
+      "data": "Tuples are immutable sequences, similar to lists but cannot be modified after creation."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Creating tuples\nempty_tuple = ()\nsingle_item = (1,)\nmy_tuple = (1, 2, 3, 'hello')\n\n# Accessing elements\nprint(my_tuple[0])  # 1\nprint(my_tuple[-1])  # 'hello'\n\n# Unpacking\ntuple1, tuple2, tuple3, tuple4 = my_tuple\nprint(tuple1)  # 1"
+    },
+    {
+      "component": "h2",
+      "data": "Sets"
+    },
+    {
+      "component": "p",
+      "data": "Sets are unordered collections of unique elements."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Creating sets\nempty_set = set()\nmy_set = {1, 2, 3, 4, 5}\n\n# Adding elements\nmy_set.add(6)\n\n# Set operations\nset1 = {1, 2, 3}\nset2 = {3, 4, 5}\nprint(set1 | set2)  # Union: {1, 2, 3, 4, 5}\nprint(set1 & set2)  # Intersection: {3}\nprint(set1 - set2)  # Difference: {1, 2}"
+    },
+    {
+      "component": "h2",
+      "data": "Dictionaries"
+    },
+    {
+      "component": "p",
+      "data": "Dictionaries store key-value pairs and provide fast lookups."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Creating dictionaries\nempty_dict = {}\nperson = {'name': 'John', 'age': 30, 'city': 'New York'}\n\n# Accessing values\nprint(person['name'])  # John\nprint(person.get('age'))  # 30\n\n# Adding/modifying\nperson['email'] = 'john@example.com'\nperson['age'] = 31\n\n# Iterating\nfor key, value in person.items():\n    print(f'{key}: {value}')"
+    },
+    {
+      "component": "h2",
+      "data": "Choosing the Right Collection"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Use lists for ordered, mutable sequences"
+        },
+        {
+          "component": "li",
+          "data": "Use tuples for immutable sequences"
+        },
+        {
+          "component": "li",
+          "data": "Use sets for unique, unordered collections"
+        },
+        {
+          "component": "li",
+          "data": "Use dictionaries for key-value mappings"
+        }
+      ]
+    },
+    {
+      "component": "p",
+      "data": "Understanding these collections is crucial for effective Python programming."
+    }
+  ]
+}

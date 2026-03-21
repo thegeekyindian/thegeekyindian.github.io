@@ -1,0 +1,34 @@
+{
+  "heading": "Classes and Objects",
+  "title": "Classes and Objects",
+  "description": "Introduction to object-oriented programming in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Classes are blueprints for creating objects. Objects are instances of classes that encapsulate data and behavior."
+    },
+    {
+      "component": "h3",
+      "data": "Defining Classes"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    \n    def greet(self):\n        return f'Hello, my name is {self.name}'\n\n# Creating objects\nperson1 = Person('Alice', 30)\nperson2 = Person('Bob', 25)\n\nprint(person1.greet())  # Hello, my name is Alice"
+    },
+    {
+      "component": "h3",
+      "data": "Instance Variables and Methods"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n        self.speed = 0\n    \n    def accelerate(self):\n        self.speed += 10\n    \n    def brake(self):\n        self.speed = max(0, self.speed - 10)\n    \n    def get_speed(self):\n        return self.speed\n\nmy_car = Car('Toyota', 'Camry')\nmy_car.accelerate()\nprint(my_car.get_speed())  # 10"
+    },
+    {
+      "component": "p",
+      "data": "The __init__ method is a special method called a constructor. It initializes the object's attributes. Methods are functions defined inside a class."
+    }
+  ]
+}

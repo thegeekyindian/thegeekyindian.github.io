@@ -1,0 +1,131 @@
+{
+  "title":"Python Home",
+  "mainPage":"pythonHome",
+  "shortName":"Python",
+  "links": [
+    {
+      "key":"introduction",
+      "name": "Introduction to Python",
+      "shortName":"Intro",
+      "page": "introduction",
+      "iconClass":"fab fa-python"
+    },
+    {
+      "key":"pythonBasics",
+      "name": "Python Basics",
+      "shortName":"Basics",
+      "page": "pythonBasics",
+      "iconClass":"fab fa-python",
+      "subLinks": [
+        {
+          "key":"variablesAndDataTypes",
+          "name": "Variables and Data Types",
+          "shortName":"Variables",
+          "page": "variablesAndDataTypes"
+        },
+        {
+          "key":"controlStructures",
+          "name": "Control Structures",
+          "shortName":"Control",
+          "page": "controlStructures"
+        },
+        {
+          "key":"functions",
+          "name": "Functions",
+          "shortName":"Functions",
+          "page": "functions"
+        },
+        {
+          "key":"loops",
+          "name": "Loops",
+          "shortName":"Loops",
+          "page": "loops"
+        },
+        {
+          "key":"collections",
+          "name": "Collections",
+          "shortName":"Collections",
+          "page": "collections"
+        },
+        {
+          "key":"decorators",
+          "name": "Decorators",
+          "shortName":"Decorators",
+          "page": "decorators"
+        }
+      ]
+    },
+    {
+      "key":"dataStructures",
+      "name": "Data Structures",
+      "shortName":"Data Structures",
+      "page": "dataStructures",
+      "subLinks": [
+        {
+          "key":"lists",
+          "name": "Lists",
+          "shortName":"Lists",
+          "page": "lists"
+        },
+        {
+          "key":"dictionaries",
+          "name": "Dictionaries",
+          "shortName":"Dictionaries",
+          "page": "dictionaries"
+        },
+        {
+          "key":"setsAndTuples",
+          "name": "Sets and Tuples",
+          "shortName":"Sets/Tuples",
+          "page": "setsAndTuples"
+        }
+      ]
+    },
+    {
+      "key":"oop",
+      "name": "Object-Oriented Programming",
+      "shortName":"OOP",
+      "page": "oop",
+      "subLinks": [
+        {
+          "key":"classesAndObjects",
+          "name": "Classes and Objects",
+          "shortName":"Classes",
+          "page": "classesAndObjects"
+        },
+        {
+          "key":"inheritance",
+          "name": "Inheritance",
+          "shortName":"Inheritance",
+          "page": "inheritance"
+        },
+        {
+          "key":"polymorphism",
+          "name": "Polymorphism",
+          "shortName":"Polymorphism",
+          "page": "polymorphism"
+        }
+      ]
+    },
+    {
+      "key":"webDevelopment",
+      "name": "Web Development",
+      "shortName":"Web Dev",
+      "page": "webDevelopment",
+      "subLinks": [
+        {
+          "key":"flask",
+          "name": "Flask Framework",
+          "shortName":"Flask",
+          "page": "flask"
+        },
+        {
+          "key":"django",
+          "name": "Django Framework",
+          "shortName":"Django",
+          "page": "django"
+        }
+      ]
+    }
+  ]
+}

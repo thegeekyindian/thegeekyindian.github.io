@@ -4,6 +4,63 @@
   "shortName":"Java",
   "links": [
     {
+      "key":"introduction",
+      "name": "Introduction to Java",
+      "shortName":"Intro",
+      "page": "introduction",
+      "iconClass":"fab fa-java"
+    },
+    {
+      "key":"controls",
+      "name": "Control Structures",
+      "shortName":"Controls",
+      "page": "controls",
+      "iconClass":"fab fa-java"
+    },
+    {
+      "key":"loops",
+      "name": "Loops",
+      "shortName":"Loops",
+      "page": "loops",
+      "iconClass":"fab fa-java"
+    },
+    {
+      "key":"threads",
+      "name": "Threads",
+      "shortName":"Threads",
+      "page": "threads",
+      "iconClass":"fab fa-java"
+    },
+    {
+      "key":"collections",
+      "name": "Collections",
+      "shortName":"Collections",
+      "page": "collections",
+      "iconClass":"fab fa-java"
+    },
+    {
+      "key":"generics",
+      "name": "Generics",
+      "shortName":"Generics",
+      "page": "generics",
+      "iconClass":"fab fa-java"
+    },
+    {
+      "key":"javaBasics",
+      "name": "Java Basics",
+      "shortName":"Basics",
+      "page": "javaBasics",
+      "iconClass":"fab fa-java",
+      "subLinks": [
+        {
+          "key":"javaClasses",
+          "name": "Classes and Objects",
+          "shortName":"Classes",
+          "page": "javaClasses"
+        }
+      ]
+    },
+    {
       "key":"designPatterns",
       "name": "Design Patterns",
       "shortName":"Design Patterns",

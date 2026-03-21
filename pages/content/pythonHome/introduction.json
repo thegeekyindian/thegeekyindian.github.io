@@ -1,0 +1,93 @@
+{
+  "heading": "Introduction to Python",
+  "title": "Introduction to Python",
+  "description": "Learn the basics of Python programming language",
+  "dataList": [
+    {
+      "component": "p",
+      "data": "Python is a versatile, high-level programming language known for its simplicity and readability. It's popular for web development, data science, AI, and automation."
+    },
+    {
+      "component": "h2",
+      "data": "History of Python"
+    },
+    {
+      "component": "p",
+      "data": "Python was created by Guido van Rossum and first released in 1991. It was designed to be easy to read and write, with a focus on code readability. Python's popularity has grown tremendously due to its simplicity and powerful libraries."
+    },
+    {
+      "component": "h2",
+      "data": "Python Interpreter"
+    },
+    {
+      "component": "p",
+      "data": "Python is an interpreted language, which means code is executed line by line. This makes development faster and easier, though it can be slower than compiled languages for certain tasks."
+    },
+    {
+      "component": "h2",
+      "data": "Basic Python Syntax"
+    },
+    {
+      "component": "p",
+      "data": "Python uses indentation to define code blocks, making it highly readable. Unlike many languages, Python doesn't use curly braces or semicolons."
+    },
+    {
+      "component": "h2",
+      "data": "Key Features"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Easy to learn and use"
+        },
+        {
+          "component": "li",
+          "data": "Large standard library"
+        },
+        {
+          "component": "li",
+          "data": "Supports multiple paradigms (procedural, object-oriented, functional)"
+        },
+        {
+          "component": "li",
+          "data": "Dynamic typing"
+        },
+        {
+          "component": "li",
+          "data": "Automatic memory management"
+        }
+      ]
+    },
+    {
+      "component": "h2",
+      "data": "Hello World Example"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "print(\"Hello, World!\")"
+    },
+    {
+      "component": "p",
+      "data": "This simple line prints 'Hello, World!' to the console."
+    },
+    {
+      "component": "h2",
+      "data": "Python Philosophy"
+    },
+    {
+      "component": "p",
+      "data": "Python follows the 'Zen of Python' principles, emphasizing readability, simplicity, and explicitness. You can see these principles by running 'import this' in a Python interpreter."
+    },
+    {
+      "component": "h2",
+      "data": "Next Steps"
+    },
+    {
+      "component": "p",
+      "data": "Now that you have a basic understanding of Python, explore our sections on data types, control structures, functions, and more advanced topics like object-oriented programming and data structures."
+    }
+  ]
+}

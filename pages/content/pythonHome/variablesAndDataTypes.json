@@ -1,0 +1,51 @@
+{
+  "heading": "Variables and Data Types",
+  "title": "Variables and Data Types",
+  "description": "Understanding variables and data types in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Variables are containers for storing data values. Python has various data types including integers, floats, strings, booleans, and more. Python is dynamically typed, meaning you don't need to declare the type of a variable explicitly."
+    },
+    {
+      "component": "h3",
+      "data": "Variable Declaration"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Variable assignment\nname = 'John'\nage = 25\nheight = 5.9\nis_student = True\n\nprint(name, age, height, is_student)"
+    },
+    {
+      "component": "h3",
+      "data": "Data Types"
+    },
+    {
+      "component": "ul",
+      "data": [
+        "int: Integer numbers (e.g., 5, -3)",
+        "float: Decimal numbers (e.g., 3.14, -2.5)",
+        "str: String/text (e.g., 'Hello', \"World\")",
+        "bool: Boolean values (True or False)",
+        "list: Ordered collection of items",
+        "dict: Key-value pairs",
+        "tuple: Immutable ordered collection",
+        "set: Unordered collection of unique items"
+      ]
+    },
+    {
+      "component": "h3",
+      "data": "Type Checking"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "x = 5\nprint(type(x))  # <class 'int'>\n\ny = 'Hello'\nprint(type(y))  # <class 'str'>"
+    },
+    {
+      "component": "p",
+      "data": "The type() function returns the data type of a variable."
+    }
+  ]
+}

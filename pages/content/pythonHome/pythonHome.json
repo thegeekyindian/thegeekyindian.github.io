@@ -1,0 +1,73 @@
+{
+  "heading": "Python",
+  "title": "Python Programming",
+  "description": "Comprehensive guide to Python programming",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Python is a high-level, interpreted programming language known for its simplicity and readability. Created by Guido van Rossum and first released in 1991, Python emphasizes code readability with its notable use of significant whitespace. It's widely used for web development, data science, artificial intelligence, automation, and more. This section provides comprehensive tutorials to help you master Python programming."
+    },
+    {
+      "component": "h2",
+      "data": "Why Learn Python?"
+    },
+    {
+      "component": "p",
+      "data": "Python is one of the most popular programming languages in the world. It's beginner-friendly, versatile, and has a massive ecosystem of libraries and frameworks. Python is used by companies like Google, Netflix, and Instagram."
+    },
+    {
+      "component": "h2",
+      "data": "Key Features of Python"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Simple and readable syntax"
+        },
+        {
+          "component": "li",
+          "data": "Dynamically typed"
+        },
+        {
+          "component": "li",
+          "data": "Interpreted language"
+        },
+        {
+          "component": "li",
+          "data": "Cross-platform compatibility"
+        },
+        {
+          "component": "li",
+          "data": "Extensive standard library"
+        }
+      ]
+    },
+    {
+      "component": "h2",
+      "data": "Python Development Environment"
+    },
+    {
+      "component": "p",
+      "data": "To start programming in Python, you need to install Python from python.org. Popular IDEs include PyCharm, VS Code, and Jupyter Notebook for data science work."
+    },
+    {
+      "component": "h2",
+      "data": "Getting Started"
+    },
+    {
+      "component": "p",
+      "data": "Begin your Python journey with our Introduction to Python section. Learn about basic syntax, data types, and control structures. Then explore advanced topics like object-oriented programming, data structures, and web development."
+    },
+    {
+      "component": "h2",
+      "data": "Python Ecosystem"
+    },
+    {
+      "component": "p",
+      "data": "Python has a rich ecosystem with frameworks like Django and Flask for web development, NumPy and Pandas for data science, TensorFlow and PyTorch for machine learning, and many more libraries for various purposes."
+    }
+  ]
+}

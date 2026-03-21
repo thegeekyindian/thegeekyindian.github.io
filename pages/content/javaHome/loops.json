@@ -1,0 +1,43 @@
+{
+  "heading": "Loops",
+  "title": "Loops",
+  "description": "Understanding loops in Java",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Loops allow you to execute a block of code repeatedly. Java provides several types of loops: for, while, and do-while."
+    },
+    {
+      "component": "h2",
+      "data": "For Loop"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "for (int i = 0; i < 5; i++) {\n    System.out.println(\"Count: \" + i);\n}"
+    },
+    {
+      "component": "h2",
+      "data": "While Loop"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "int i = 0;\nwhile (i < 5) {\n    System.out.println(\"Count: \" + i);\n    i++;\n}"
+    },
+    {
+      "component": "h2",
+      "data": "Do-While Loop"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "int i = 0;\ndo {\n    System.out.println(\"Count: \" + i);\n    i++;\n} while (i < 5);"
+    },
+    {
+      "component": "p",
+      "data": "Choose the appropriate loop based on your specific requirements. For loops are great when you know the number of iterations, while while and do-while are better for conditional looping."
+    }
+  ]
+}

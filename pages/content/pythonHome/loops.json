@@ -1,0 +1,69 @@
+{
+  "heading": "Loops",
+  "title": "Loops",
+  "description": "Understanding loops in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Loops allow you to execute a block of code repeatedly. Python provides for and while loops for iteration."
+    },
+    {
+      "component": "h2",
+      "data": "For Loops"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Iterating over a list\nfruits = ['apple', 'banana', 'cherry']\nfor fruit in fruits:\n    print(fruit)\n\n# Using range()\nfor i in range(5):\n    print(i)  # 0, 1, 2, 3, 4\n\n# Iterating over a string\nfor char in 'hello':\n    print(char)"
+    },
+    {
+      "component": "h2",
+      "data": "While Loops"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "count = 0\nwhile count < 5:\n    print(count)\n    count += 1"
+    },
+    {
+      "component": "h2",
+      "data": "Loop Control Statements"
+    },
+    {
+      "component": "h3",
+      "data": "Break Statement"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "for i in range(10):\n    if i == 5:\n        break\n    print(i)  # Prints 0, 1, 2, 3, 4"
+    },
+    {
+      "component": "h3",
+      "data": "Continue Statement"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "for i in range(5):\n    if i == 2:\n        continue\n    print(i)  # Prints 0, 1, 3, 4"
+    },
+    {
+      "component": "h2",
+      "data": "List Comprehensions"
+    },
+    {
+      "component": "p",
+      "data": "List comprehensions provide a concise way to create lists."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Create a list of squares\nsquares = [x**2 for x in range(10)]\nprint(squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]\n\n# With condition\neven_squares = [x**2 for x in range(10) if x % 2 == 0]\nprint(even_squares)  # [0, 4, 16, 36, 64]"
+    },
+    {
+      "component": "p",
+      "data": "Loops are essential for processing collections and performing repetitive tasks in Python."
+    }
+  ]
+}

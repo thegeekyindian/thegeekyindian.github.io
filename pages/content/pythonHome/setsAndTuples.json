@@ -1,0 +1,38 @@
+{
+  "heading": "Sets and Tuples",
+  "title": "Sets and Tuples",
+  "description": "Understanding sets and tuples in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Sets and tuples are important data structures in Python. Sets are unordered collections of unique elements, while tuples are immutable sequences."
+    },
+    {
+      "component": "h2",
+      "data": "Sets"
+    },
+    {
+      "component": "p",
+      "data": "Sets are unordered collections of unique elements. They are mutable and do not allow duplicate values."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Creating a set\nmy_set = {1, 2, 3, 4, 5}\nprint(my_set)\n\n# Adding elements\nmy_set.add(6)\nprint(my_set)"
+    },
+    {
+      "component": "h2",
+      "data": "Tuples"
+    },
+    {
+      "component": "p",
+      "data": "Tuples are immutable sequences. Once created, their elements cannot be changed."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Creating a tuple\nmy_tuple = (1, 2, 3, 4, 5)\nprint(my_tuple)\n\n# Accessing elements\nprint(my_tuple[0])"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "heading": "Control Structures",
+  "title": "Control Structures",
+  "description": "Understanding control structures in Java",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Control structures allow you to control the flow of execution in your Java programs. They include conditional statements and decision-making constructs."
+    },
+    {
+      "component": "h2",
+      "data": "If-Else Statements"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "int age = 18;\n\nif (age >= 18) {\n    System.out.println(\"You are an adult\");\n} else {\n    System.out.println(\"You are a minor\");\n}"
+    },
+    {
+      "component": "h2",
+      "data": "Switch Statements"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "int day = 3;\nString dayName;\n\nswitch (day) {\n    case 1:\n        dayName = \"Monday\";\n        break;\n    case 2:\n        dayName = \"Tuesday\";\n        break;\n    case 3:\n        dayName = \"Wednesday\";\n        break;\n    default:\n        dayName = \"Invalid day\";\n        break;\n}\n\nSystem.out.println(dayName);"
+    },
+    {
+      "component": "p",
+      "data": "Control structures are essential for making decisions and controlling program flow in Java applications."
+    }
+  ]
+}

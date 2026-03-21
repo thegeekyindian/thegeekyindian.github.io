@@ -1,0 +1,43 @@
+{
+  "heading": "Flask Framework",
+  "title": "Flask Framework",
+  "description": "Building web applications with Flask",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Flask is a lightweight web framework for Python. It's simple, flexible, and easy to get started with for building web applications."
+    },
+    {
+      "component": "h3",
+      "data": "Hello World with Flask"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "from flask import Flask\n\napp = Flask(__name__)\n\n@app.route('/')\ndef hello():\n    return 'Hello, World!'\n\nif __name__ == '__main__':\n    app.run(debug=True)"
+    },
+    {
+      "component": "h3",
+      "data": "Routing and Views"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "from flask import Flask\n\napp = Flask(__name__)\n\n@app.route('/')\ndef home():\n    return 'Home Page'\n\n@app.route('/about')\ndef about():\n    return 'About Page'\n\n@app.route('/user/<username>')\ndef user_profile(username):\n    return f'User: {username}'\n\nif __name__ == '__main__':\n    app.run()"
+    },
+    {
+      "component": "h3",
+      "data": "Templates with Jinja2"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "from flask import Flask, render_template\n\napp = Flask(__name__)\n\n@app.route('/hello/<name>')\ndef hello(name):\n    return render_template('hello.html', name=name)\n\n# hello.html\n# <h1>Hello, {{ name }}!</h1>"
+    },
+    {
+      "component": "p",
+      "data": "Flask uses Jinja2 templating engine to render HTML templates. Templates allow you to separate presentation logic from application logic."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "heading": "Threads",
+  "title": "Threads",
+  "description": "Understanding multithreading in Java",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Multithreading allows a program to perform multiple tasks concurrently. Java provides built-in support for multithreaded programming."
+    },
+    {
+      "component": "h2",
+      "data": "Creating Threads"
+    },
+    {
+      "component": "p",
+      "data": "There are two ways to create threads in Java: by extending the Thread class or by implementing the Runnable interface."
+    },
+    {
+      "component": "h3",
+      "data": "Extending Thread Class"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "class MyThread extends Thread {\n    public void run() {\n        System.out.println(\"Thread is running\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        MyThread thread = new MyThread();\n        thread.start();\n    }\n}"
+    },
+    {
+      "component": "h3",
+      "data": "Implementing Runnable Interface"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "class MyRunnable implements Runnable {\n    public void run() {\n        System.out.println(\"Thread is running\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Thread thread = new Thread(new MyRunnable());\n        thread.start();\n    }\n}"
+    },
+    {
+      "component": "h2",
+      "data": "Thread Synchronization"
+    },
+    {
+      "component": "p",
+      "data": "Synchronization ensures that only one thread can access a shared resource at a time, preventing race conditions."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "class Counter {\n    private int count = 0;\n\n    public synchronized void increment() {\n        count++;\n    }\n\n    public int getCount() {\n        return count;\n    }\n}"
+    },
+    {
+      "component": "p",
+      "data": "Multithreading is powerful but requires careful management to avoid issues like deadlocks and race conditions."
+    }
+  ]
+}

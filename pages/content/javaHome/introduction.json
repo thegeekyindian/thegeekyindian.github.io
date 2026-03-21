@@ -1,0 +1,85 @@
+{
+  "heading": "Introduction to Java",
+  "title": "Introduction to Java",
+  "description": "Learn the basics of Java programming language",
+  "dataList": [
+    {
+      "component": "p",
+      "data": "Java is a high-level, object-oriented programming language developed by Sun Microsystems (now Oracle). It's widely used for building enterprise applications, Android apps, web applications, and more. Java's philosophy of 'Write Once, Run Anywhere' makes it platform-independent."
+    },
+    {
+      "component": "h2",
+      "data": "History of Java"
+    },
+    {
+      "component": "p",
+      "data": "Java was developed by James Gosling and his team at Sun Microsystems in 1995. Originally called Oak, it was designed for interactive television but later evolved into a general-purpose programming language. Java's popularity exploded with the rise of the internet and web applications."
+    },
+    {
+      "component": "h2",
+      "data": "Java Virtual Machine (JVM)"
+    },
+    {
+      "component": "p",
+      "data": "The JVM is the heart of Java's platform independence. Java code is compiled into bytecode, which can run on any device with a JVM installed. This 'compile once, run anywhere' approach is one of Java's biggest strengths."
+    },
+    {
+      "component": "h2",
+      "data": "Basic Java Syntax"
+    },
+    {
+      "component": "p",
+      "data": "Java programs are organized into classes. Every Java program must have at least one class with a main method, which serves as the entry point for the program."
+    },
+    {
+      "component": "h2",
+      "data": "Key Features"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Platform-independent (Write Once, Run Anywhere)"
+        },
+        {
+          "component": "li",
+          "data": "Object-Oriented"
+        },
+        {
+          "component": "li",
+          "data": "Robust and Secure"
+        },
+        {
+          "component": "li",
+          "data": "Multithreaded"
+        },
+        {
+          "component": "li",
+          "data": "Garbage Collection"
+        }
+      ]
+    },
+    {
+      "component": "h2",
+      "data": "Hello World Example"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
+    },
+    {
+      "component": "p",
+      "data": "This code defines a class with a main method that prints 'Hello, World!' to the console."
+    },
+    {
+      "component": "h2",
+      "data": "Next Steps"
+    },
+    {
+      "component": "p",
+      "data": "Now that you have a basic understanding of Java, explore our sections on data types, control structures, object-oriented programming, and more advanced topics like collections and multithreading."
+    }
+  ]
+}

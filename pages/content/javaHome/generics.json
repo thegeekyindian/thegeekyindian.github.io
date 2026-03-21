@@ -1,0 +1,43 @@
+{
+  "heading": "Generics",
+  "title": "Generics",
+  "description": "Understanding generics in Java",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Generics enable types (classes and interfaces) to be parameters when defining classes, interfaces, and methods. They provide compile-time type safety and eliminate the need for casting."
+    },
+    {
+      "component": "h2",
+      "data": "Generic Classes"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "class Box<T> {\n    private T item;\n\n    public void setItem(T item) {\n        this.item = item;\n    }\n\n    public T getItem() {\n        return item;\n    }\n}\n\n// Usage\nBox<String> stringBox = new Box<>();\nstringBox.setItem(\"Hello\");\nString item = stringBox.getItem();"
+    },
+    {
+      "component": "h2",
+      "data": "Generic Methods"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "public class Util {\n    public static <T> void printArray(T[] array) {\n        for (T element : array) {\n            System.out.println(element);\n        }\n    }\n}\n\n// Usage\nString[] strings = {\"Hello\", \"World\"};\nUtil.printArray(strings);"
+    },
+    {
+      "component": "h2",
+      "data": "Bounded Type Parameters"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "class NumberBox<T extends Number> {\n    private T number;\n\n    public void setNumber(T number) {\n        this.number = number;\n    }\n\n    public double getDoubleValue() {\n        return number.doubleValue();\n    }\n}\n\n// Usage\nNumberBox<Integer> intBox = new NumberBox<>();\nintBox.setNumber(42);\nSystem.out.println(intBox.getDoubleValue()); // 42.0"
+    },
+    {
+      "component": "p",
+      "data": "Generics improve code reusability, type safety, and readability. They are widely used in collections and other Java APIs."
+    }
+  ]
+}

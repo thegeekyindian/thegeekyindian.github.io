@@ -1,0 +1,39 @@
+{
+  "heading": "Lists",
+  "title": "Lists",
+  "description": "Working with lists in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Lists are ordered, mutable collections of items. They can contain items of different data types and are one of the most versatile data structures in Python."
+    },
+    {
+      "component": "h3",
+      "data": "Creating Lists"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Empty list\nempty_list = []\n\n# List with items\nfruits = ['apple', 'banana', 'cherry']\n\n# Mixed data types\nmixed = [1, 'hello', 3.14, True]"
+    },
+    {
+      "component": "h3",
+      "data": "List Operations"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "fruits = ['apple', 'banana', 'cherry']\n\n# Access elements\nprint(fruits[0])  # apple\nprint(fruits[-1])  # cherry\n\n# Add elements\nfruits.append('orange')\nfruits.insert(1, 'grape')\n\n# Remove elements\nfruits.remove('banana')\npopped = fruits.pop()  # removes last element"
+    },
+    {
+      "component": "h3",
+      "data": "List Slicing"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "numbers = [0, 1, 2, 3, 4, 5]\n\nprint(numbers[1:4])  # [1, 2, 3]\nprint(numbers[:3])   # [0, 1, 2]\nprint(numbers[2:])   # [2, 3, 4, 5]\nprint(numbers[::-1]) # [5, 4, 3, 2, 1, 0]"
+    }
+  ]
+}

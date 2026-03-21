@@ -1,0 +1,25 @@
+{
+  "heading": "Inheritance",
+  "title": "Inheritance",
+  "description": "Understanding inheritance in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Inheritance allows a class to inherit attributes and methods from another class. It promotes code reusability."
+    },
+    {
+      "component": "h2",
+      "data": "Basic Inheritance"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class Animal:\n    def __init__(self, name):\n        self.name = name\n\n    def speak(self):\n        pass\n\nclass Dog(Animal):\n    def speak(self):\n        return f'{self.name} says Woof!'\n\n# Usage\ndog = Dog('Buddy')\nprint(dog.speak())"
+    },
+    {
+      "component": "p",
+      "data": "In this example, Dog inherits from Animal and overrides the speak method."
+    }
+  ]
+}

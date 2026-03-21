@@ -1,0 +1,25 @@
+{
+  "heading": "Java Basics",
+  "title": "Java Basics",
+  "description": "Fundamental concepts of Java programming",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Java basics cover the fundamental concepts that every Java programmer needs to know. This includes syntax, data types, operators, and basic programming constructs."
+    },
+    {
+      "component": "h3",
+      "data": "Hello World in Java"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
+    },
+    {
+      "component": "p",
+      "data": "Every Java program starts with a main method. The System.out.println() method is used to print text to the console."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "heading": "Control Structures",
+  "title": "Control Structures",
+  "description": "Conditional statements and loops in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Control structures allow you to control the flow of execution in your program. This includes conditional statements (if-else) and loops (for and while)."
+    },
+    {
+      "component": "h3",
+      "data": "If-Else Statements"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "age = 18\n\nif age >= 18:\n    print('You are an adult')\nelse:\n    print('You are a minor')\n\n# elif for multiple conditions\nif age < 13:\n    print('Child')\nelif age < 20:\n    print('Teenager')\nelse:\n    print('Adult')"
+    },
+    {
+      "component": "h3",
+      "data": "For Loops"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Iterating over a list\nfruits = ['apple', 'banana', 'cherry']\nfor fruit in fruits:\n    print(fruit)\n\n# Using range()\nfor i in range(5):\n    print(i)  # 0, 1, 2, 3, 4"
+    },
+    {
+      "component": "h3",
+      "data": "While Loops"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "count = 0\nwhile count < 5:\n    print(count)\n    count += 1"
+    },
+    {
+      "component": "p",
+      "data": "Loops are used to execute a block of code repeatedly. For loops are great for iterating over sequences, while while loops continue as long as a condition is true."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "heading": "Dictionaries",
+  "title": "Dictionaries",
+  "description": "Working with dictionaries in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Dictionaries are unordered collections of key-value pairs. They are mutable and allow fast lookups by key."
+    },
+    {
+      "component": "h3",
+      "data": "Creating Dictionaries"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# Empty dictionary\nempty_dict = {}\n\n# Dictionary with items\nperson = {\n    'name': 'John',\n    'age': 30,\n    'city': 'New York'\n}\n\n# Using dict() constructor\ndict_constructor = dict(name='Jane', age=25)"
+    },
+    {
+      "component": "h3",
+      "data": "Dictionary Operations"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "person = {'name': 'John', 'age': 30}\n\n# Access values\nprint(person['name'])  # John\nprint(person.get('age'))  # 30\n\n# Add/modify items\nperson['city'] = 'Boston'\nperson['age'] = 31\n\n# Remove items\ndel person['age']\nage = person.pop('name')"
+    },
+    {
+      "component": "h3",
+      "data": "Dictionary Methods"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "person = {'name': 'John', 'age': 30, 'city': 'NYC'}\n\nprint(person.keys())    # dict_keys(['name', 'age', 'city'])\nprint(person.values())  # dict_values(['John', 30, 'NYC'])\nprint(person.items())   # dict_items([('name', 'John'), ('age', 30), ('city', 'NYC')])\n\n# Check if key exists\nif 'name' in person:\n    print('Name exists')"
+    }
+  ]
+}

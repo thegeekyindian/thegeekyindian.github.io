@@ -1,0 +1,34 @@
+{
+  "heading": "Classes and Objects in Java",
+  "title": "Classes and Objects in Java",
+  "description": "Object-oriented programming fundamentals in Java",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Java is an object-oriented programming language. Classes are blueprints for objects, and objects are instances of classes."
+    },
+    {
+      "component": "h3",
+      "data": "Defining Classes"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "public class Person {\n    // Instance variables\n    private String name;\n    private int age;\n    \n    // Constructor\n    public Person(String name, int age) {\n        this.name = name;\n        this.age = age;\n    }\n    \n    // Methods\n    public String getName() {\n        return name;\n    }\n    \n    public void setName(String name) {\n        this.name = name;\n    }\n    \n    public int getAge() {\n        return age;\n    }\n    \n    public void setAge(int age) {\n        this.age = age;\n    }\n}"
+    },
+    {
+      "component": "h3",
+      "data": "Creating Objects"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "public class Main {\n    public static void main(String[] args) {\n        // Create objects\n        Person person1 = new Person(\"Alice\", 30);\n        Person person2 = new Person(\"Bob\", 25);\n        \n        // Access methods\n        System.out.println(person1.getName()); // Alice\n        person2.setAge(26);\n    }\n}"
+    },
+    {
+      "component": "p",
+      "data": "In Java, objects are created using the 'new' keyword. The constructor initializes the object's state. Encapsulation is achieved through private fields and public getter/setter methods."
+    }
+  ]
+}

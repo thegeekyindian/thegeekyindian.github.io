@@ -1,0 +1,124 @@
+{
+  "heading": "Data Structures",
+  "title": "Data Structures",
+  "description": "Overview of data structures in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Data structures are fundamental concepts in programming. Python provides built-in data structures like lists, tuples, sets, and dictionaries, as well as more advanced structures in the collections module."
+    },
+    {
+      "component": "h2",
+      "data": "Built-in Data Structures"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Lists: Ordered, mutable sequences"
+        },
+        {
+          "component": "li",
+          "data": "Tuples: Ordered, immutable sequences"
+        },
+        {
+          "component": "li",
+          "data": "Sets: Unordered collections of unique elements"
+        },
+        {
+          "component": "li",
+          "data": "Dictionaries: Key-value mappings"
+        }
+      ]
+    },
+    {
+      "component": "h2",
+      "data": "When to Use Each Structure"
+    },
+    {
+      "component": "p",
+      "data": "Choosing the right data structure can significantly impact your program's performance and readability."
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Use lists when you need ordered, changeable collections"
+        },
+        {
+          "component": "li",
+          "data": "Use tuples for immutable sequences or when you need to return multiple values from a function"
+        },
+        {
+          "component": "li",
+          "data": "Use sets when you need unique elements and don't care about order"
+        },
+        {
+          "component": "li",
+          "data": "Use dictionaries for fast lookups by key"
+        }
+      ]
+    },
+    {
+      "component": "h2",
+      "data": "Advanced Data Structures"
+    },
+    {
+      "component": "p",
+      "data": "Python's collections module provides additional data structures:"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "deque: Double-ended queue for efficient appends and pops"
+        },
+        {
+          "component": "li",
+          "data": "Counter: For counting hashable objects"
+        },
+        {
+          "component": "li",
+          "data": "OrderedDict: Dictionary that remembers insertion order"
+        },
+        {
+          "component": "li",
+          "data": "defaultdict: Dictionary with default values"
+        }
+      ]
+    },
+    {
+      "component": "h2",
+      "data": "Time Complexity"
+    },
+    {
+      "component": "p",
+      "data": "Understanding the time complexity of operations on different data structures is crucial for writing efficient code."
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "List access: O(1), insertion/deletion: O(n)"
+        },
+        {
+          "component": "li",
+          "data": "Dictionary access: O(1) average case"
+        },
+        {
+          "component": "li",
+          "data": "Set operations: O(1) average case"
+        }
+      ]
+    },
+    {
+      "component": "p",
+      "data": "Mastering data structures is essential for becoming a proficient Python programmer. Explore the specific sections for detailed implementations and use cases."
+    }
+  ]
+}

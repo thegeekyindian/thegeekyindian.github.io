@@ -1,0 +1,93 @@
+{
+  "heading": "Object-Oriented Programming",
+  "title": "Object-Oriented Programming",
+  "description": "Introduction to OOP in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes. Python supports OOP and provides features like inheritance, encapsulation, and polymorphism."
+    },
+    {
+      "component": "h2",
+      "data": "Classes and Objects"
+    },
+    {
+      "component": "p",
+      "data": "A class is a blueprint for creating objects. An object is an instance of a class."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class Dog:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n\n    def bark(self):\n        print(f\"{self.name} says Woof!\")\n\n# Creating objects\nmy_dog = Dog(\"Buddy\", 3)\nyour_dog = Dog(\"Max\", 5)\n\nmy_dog.bark()  # Buddy says Woof!"
+    },
+    {
+      "component": "h2",
+      "data": "Inheritance"
+    },
+    {
+      "component": "p",
+      "data": "Inheritance allows a class to inherit attributes and methods from another class."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class Animal:\n    def __init__(self, name):\n        self.name = name\n\n    def speak(self):\n        pass\n\nclass Dog(Animal):\n    def speak(self):\n        return f\"{self.name} says Woof!\"\n\nclass Cat(Animal):\n    def speak(self):\n        return f\"{self.name} says Meow!\"\n\nanimals = [Dog(\"Buddy\"), Cat(\"Whiskers\")]\nfor animal in animals:\n    print(animal.speak())"
+    },
+    {
+      "component": "h2",
+      "data": "Encapsulation"
+    },
+    {
+      "component": "p",
+      "data": "Encapsulation hides the internal state of an object and requires all interaction to be performed through an object's methods."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class BankAccount:\n    def __init__(self, balance):\n        self.__balance = balance  # Private attribute\n\n    def deposit(self, amount):\n        if amount > 0:\n            self.__balance += amount\n\n    def get_balance(self):\n        return self.__balance\n\naccount = BankAccount(1000)\naccount.deposit(500)\nprint(account.get_balance())  # 1500\n# print(account.__balance)  # AttributeError"
+    },
+    {
+      "component": "h2",
+      "data": "Polymorphism"
+    },
+    {
+      "component": "p",
+      "data": "Polymorphism allows objects of different classes to be treated as objects of a common superclass."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class Shape:\n    def area(self):\n        pass\n\nclass Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n\n    def area(self):\n        return 3.14 * self.radius ** 2\n\nclass Rectangle(Shape):\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n\n    def area(self):\n        return self.width * self.height\n\nshapes = [Circle(5), Rectangle(4, 6)]\nfor shape in shapes:\n    print(f\"Area: {shape.area()}\")"
+    },
+    {
+      "component": "h2",
+      "data": "Benefits of OOP"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Modularity: Code is organized into classes and objects"
+        },
+        {
+          "component": "li",
+          "data": "Reusability: Classes can be reused in different contexts"
+        },
+        {
+          "component": "li",
+          "data": "Maintainability: Easier to modify and extend code"
+        },
+        {
+          "component": "li",
+          "data": "Abstraction: Hide complex implementation details"
+        }
+      ]
+    },
+    {
+      "component": "p",
+      "data": "OOP is a powerful paradigm that helps in building complex, maintainable software systems. Python's support for OOP makes it suitable for large-scale applications."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "heading": "Python Basics",
+  "title": "Python Basics",
+  "description": "Fundamental concepts of Python programming",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Python basics cover the fundamental concepts that every programmer needs to know. This includes syntax, data types, operators, and basic programming constructs. Understanding these basics is crucial before moving to more advanced topics."
+    },
+    {
+      "component": "h3",
+      "data": "Hello World in Python"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "print('Hello, World!')"
+    },
+    {
+      "component": "p",
+      "data": "The print() function is used to output text to the console. In Python, strings can be enclosed in single quotes or double quotes."
+    },
+    {
+      "component": "h3",
+      "data": "Comments in Python"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# This is a single-line comment\n\n'''\nThis is a\nmulti-line comment\n'''"
+    },
+    {
+      "component": "p",
+      "data": "Comments are used to explain code and are ignored by the Python interpreter. Single-line comments start with #, and multi-line comments are enclosed in triple quotes."
+    }
+  ]
+}

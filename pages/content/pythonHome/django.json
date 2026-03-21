@@ -1,0 +1,50 @@
+{
+  "heading": "Django Framework",
+  "title": "Django Framework",
+  "description": "Introduction to Django web framework",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
+    },
+    {
+      "component": "h2",
+      "data": "Key Features"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Object-Relational Mapping (ORM)"
+        },
+        {
+          "component": "li",
+          "data": "Admin interface"
+        },
+        {
+          "component": "li",
+          "data": "URL routing"
+        },
+        {
+          "component": "li",
+          "data": "Template system"
+        }
+      ]
+    },
+    {
+      "component": "h2",
+      "data": "Basic Example"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "# views.py\nfrom django.http import HttpResponse\n\ndef hello(request):\n    return HttpResponse('Hello, World!')\n\n# urls.py\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('hello/', views.hello, name='hello'),\n]"
+    },
+    {
+      "component": "p",
+      "data": "This is a simple Django view and URL configuration."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "heading": "Collections",
+  "title": "Collections",
+  "description": "Understanding Java Collections Framework",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "The Java Collections Framework provides a set of interfaces and classes for storing and manipulating groups of data as a single unit."
+    },
+    {
+      "component": "h2",
+      "data": "List Interface"
+    },
+    {
+      "component": "p",
+      "data": "List is an ordered collection that allows duplicate elements. Common implementations include ArrayList and LinkedList."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "import java.util.ArrayList;\nimport java.util.List;\n\nList<String> list = new ArrayList<>();\nlist.add(\"Apple\");\nlist.add(\"Banana\");\nlist.add(\"Cherry\");\n\nSystem.out.println(list.get(1)); // Banana"
+    },
+    {
+      "component": "h2",
+      "data": "Set Interface"
+    },
+    {
+      "component": "p",
+      "data": "Set is a collection that contains no duplicate elements. HashSet is a common implementation."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "import java.util.HashSet;\nimport java.util.Set;\n\nSet<String> set = new HashSet<>();\nset.add(\"Apple\");\nset.add(\"Banana\");\nset.add(\"Apple\"); // Duplicate, won't be added\n\nSystem.out.println(set.size()); // 2"
+    },
+    {
+      "component": "h2",
+      "data": "Map Interface"
+    },
+    {
+      "component": "p",
+      "data": "Map stores key-value pairs. HashMap is a widely used implementation."
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-java",
+      "data": "import java.util.HashMap;\nimport java.util.Map;\n\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"Apple\", 1);\nmap.put(\"Banana\", 2);\n\nSystem.out.println(map.get(\"Apple\")); // 1"
+    },
+    {
+      "component": "p",
+      "data": "Collections provide efficient data structures for various programming needs. Choose the appropriate collection based on your requirements for ordering, uniqueness, and performance."
+    }
+  ]
+}

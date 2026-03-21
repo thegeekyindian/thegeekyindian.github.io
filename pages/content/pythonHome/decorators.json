@@ -1,0 +1,73 @@
+{
+  "heading": "Decorators",
+  "title": "Decorators",
+  "description": "Understanding decorators in Python",
+  "dataList": [
+    {
+      "component": "div",
+      "classNames": "jumbotron",
+      "data": "Decorators are a powerful feature in Python that allow you to modify the behavior of functions or classes without changing their source code."
+    },
+    {
+      "component": "h2",
+      "data": "What are Decorators?"
+    },
+    {
+      "component": "p",
+      "data": "Decorators are functions that take another function as an argument and extend its behavior without modifying it."
+    },
+    {
+      "component": "h2",
+      "data": "Function Decorators"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "def my_decorator(func):\n    def wrapper():\n        print(\"Something before the function.\")\n        func()\n        print(\"Something after the function.\")\n    return wrapper\n\n@my_decorator\ndef say_hello():\n    print(\"Hello!\")\n\nsay_hello()\n# Output:\n# Something before the function.\n# Hello!\n# Something after the function."
+    },
+    {
+      "component": "h2",
+      "data": "Decorators with Parameters"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "def repeat(n):\n    def decorator(func):\n        def wrapper(*args, **kwargs):\n            for _ in range(n):\n                func(*args, **kwargs)\n        return wrapper\n    return decorator\n\n@repeat(3)\ndef greet(name):\n    print(f\"Hello, {name}!\")\n\ngreet(\"Alice\")\n# Output:\n# Hello, Alice!\n# Hello, Alice!\n# Hello, Alice!"
+    },
+    {
+      "component": "h2",
+      "data": "Built-in Decorators"
+    },
+    {
+      "component": "h3",
+      "data": "@staticmethod"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class MyClass:\n    @staticmethod\n    def static_method():\n        print(\"This is a static method\")\n\nMyClass.static_method()  # Can be called without instance"
+    },
+    {
+      "component": "h3",
+      "data": "@classmethod"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class MyClass:\n    @classmethod\n    def class_method(cls):\n        print(f\"Called from {cls}\")\n\nMyClass.class_method()"
+    },
+    {
+      "component": "h3",
+      "data": "@property"
+    },
+    {
+      "component": "pre",
+      "classNames": "code-block language-python",
+      "data": "class Person:\n    def __init__(self, name):\n        self._name = name\n\n    @property\n    def name(self):\n        return self._name\n\n    @name.setter\n    def name(self, value):\n        self._name = value\n\nperson = Person(\"John\")\nprint(person.name)  # John\nperson.name = \"Jane\"\nprint(person.name)  # Jane"
+    },
+    {
+      "component": "p",
+      "data": "Decorators are widely used in Python frameworks and libraries. Understanding them is key to advanced Python programming."
+    }
+  ]
+}

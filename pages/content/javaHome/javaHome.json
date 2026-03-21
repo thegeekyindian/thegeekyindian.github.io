@@ -1,12 +1,73 @@
 {
   "heading": "Java",
   "title": "Java",
-  "description": "Java for the geeks",
+  "description": "Comprehensive guide to Java programming",
   "dataList": [
     {
       "component": "div",
       "classNames": "jumbotron",
-      "data": "Java is a high-level programming language developed by Oracle services. It was originally designed for developing programs for set-top boxes and handheld devices, but later became a popular choice for creating web applications. The Java syntax is similar to C++, but is strictly an object-oriented programming language A new world for java developers is opening soon."
+      "data": "Java is a high-level, object-oriented programming language developed by Oracle services. It was originally designed for developing programs for set-top boxes and handheld devices, but later became a popular choice for creating web applications. The Java syntax is similar to C++, but is strictly an object-oriented programming language. A new world for Java developers is opening soon."
+    },
+    {
+      "component": "h2",
+      "data": "Why Learn Java?"
+    },
+    {
+      "component": "p",
+      "data": "Java is one of the most popular programming languages in the world. It's used for building enterprise applications, Android apps, web applications, and more. Java's 'Write Once, Run Anywhere' philosophy makes it platform-independent."
+    },
+    {
+      "component": "h2",
+      "data": "Key Features of Java"
+    },
+    {
+      "component": "ul",
+      "dataList": [
+        {
+          "component": "li",
+          "data": "Object-Oriented: Everything in Java is an object."
+        },
+        {
+          "component": "li",
+          "data": "Platform-Independent: Java code can run on any platform with JVM."
+        },
+        {
+          "component": "li",
+          "data": "Secure: Java has built-in security features."
+        },
+        {
+          "component": "li",
+          "data": "Robust: Java has strong memory management and exception handling."
+        },
+        {
+          "component": "li",
+          "data": "Multithreaded: Java supports multithreading for concurrent programming."
+        }
+      ]
+    },
+    {
+      "component": "h2",
+      "data": "Java Development Environment"
+    },
+    {
+      "component": "p",
+      "data": "To start programming in Java, you need the Java Development Kit (JDK) which includes the Java Runtime Environment (JRE) and development tools. Popular IDEs for Java development include Eclipse, IntelliJ IDEA, and NetBeans."
+    },
+    {
+      "component": "h2",
+      "data": "Getting Started"
+    },
+    {
+      "component": "p",
+      "data": "Begin your Java journey with our Introduction to Java section. Learn about basic syntax, data types, and your first 'Hello World' program. Then explore more advanced topics like object-oriented programming, collections, and multithreading."
+    },
+    {
+      "component": "h2",
+      "data": "Java Ecosystem"
+    },
+    {
+      "component": "p",
+      "data": "Java has a rich ecosystem with frameworks like Spring for enterprise development, Hibernate for ORM, and libraries for various purposes. It's widely used in Android development, web development with servlets and JSP, and big data processing with Hadoop."
     }
   ]
 }
